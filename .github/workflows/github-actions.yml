@@ -21,4 +21,3 @@ jobs:
             gradle/wrapper/gradle-wrapper.properties
 
       - run: ./gradlew build --no-daemon
-      - run: ./gradlew test --no-daemon
